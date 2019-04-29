@@ -9,10 +9,10 @@
 
 
   <groupId>cn.onlov</groupId>
-  <artifactId>on_cms_admin</artifactId>
+  <artifactId>on_cms</artifactId>
   <packaging>war</packaging>
   <version>1.0.0</version>
-  <name>on_cms_admin</name>
+  <name>on_cms</name>
 
   <dependencies>
     <dependency>
@@ -725,7 +725,7 @@
   </dependencies>
 
   <build>
-    <finalName>on_cms_admin</finalName>
+    <finalName>on_cms</finalName>
     <!-- 打包配置文件 -->
     <resources>
       <resource>
