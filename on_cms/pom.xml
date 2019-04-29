@@ -571,13 +571,15 @@
       <scope>system</scope>
       <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/activation-1.0.2.jar</systemPath>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.janeluo/ikanalyzer -->
     <dependency>
-      <groupId>local</groupId>
-      <artifactId>IKAnalyzer</artifactId>
+      <groupId>com.janeluo</groupId>
+      <artifactId>ikanalyzer</artifactId>
       <version>2012_u6</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/IKAnalyzer2012_u6.jar</systemPath>
     </dependency>
+
+
     <dependency>
       <groupId>local</groupId>
       <artifactId>jodconverter-cli</artifactId>
@@ -620,13 +622,13 @@
       <scope>system</scope>
       <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/commons-net-ftp-2.0.jar</systemPath>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.alipay.sdk/alipay-sdk-java -->
     <dependency>
-      <groupId>local</groupId>
+      <groupId>com.alipay.sdk</groupId>
       <artifactId>alipay-sdk-java</artifactId>
-      <version>20160912120058</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/alipay-sdk-java20160912120058.jar</systemPath>
+      <version>3.7.26.ALL</version>
     </dependency>
+
     <dependency>
       <groupId>local</groupId>
       <artifactId>ganymed-ssh2-build</artifactId>
